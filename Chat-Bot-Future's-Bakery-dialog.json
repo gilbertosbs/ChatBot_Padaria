@@ -1,0 +1,2725 @@
+{
+  "intents": [
+    {
+      "intent": "atd",
+      "examples": [
+        {
+          "text": "atd"
+        },
+        {
+          "text": "cardapio de doces"
+        },
+        {
+          "text": "quais sao doces"
+        },
+        {
+          "text": "qual os doces"
+        },
+        {
+          "text": "tipos de doces"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "avaliacao",
+      "examples": [
+        {
+          "text": "avaliacao"
+        },
+        {
+          "text": "avaliar"
+        },
+        {
+          "text": "Quero avaliar"
+        },
+        {
+          "text": "quero dar notas"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "boa_noite",
+      "examples": [
+        {
+          "text": "adeus"
+        },
+        {
+          "text": "encerrar"
+        },
+        {
+          "text": "falo com você depois"
+        },
+        {
+          "text": "fim"
+        },
+        {
+          "text": "tchau"
+        },
+        {
+          "text": "tchau tchau"
+        },
+        {
+          "text": "vou sair"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "cardapio",
+      "examples": [
+        {
+          "text": "cardapio"
+        },
+        {
+          "text": "cardapio de lanches"
+        },
+        {
+          "text": "lanches"
+        },
+        {
+          "text": "menu de lanches"
+        },
+        {
+          "text": "quais os lanches"
+        },
+        {
+          "text": "tipos de lanches"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "cdp",
+      "examples": [
+        {
+          "text": "cardapio de paes"
+        },
+        {
+          "text": "cdp"
+        },
+        {
+          "text": "menu de paes"
+        },
+        {
+          "text": "quais os paes"
+        },
+        {
+          "text": "tipos de paes normais"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "cdpespeciarias",
+      "examples": [
+        {
+          "text": "cardapio paes especiais"
+        },
+        {
+          "text": "cdpespeciarias"
+        },
+        {
+          "text": "menu paes especiais"
+        },
+        {
+          "text": "mn"
+        },
+        {
+          "text": "paes especiais"
+        },
+        {
+          "text": "quais os paes especiais"
+        },
+        {
+          "text": "tipos de paes especiais"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "especialidade",
+      "examples": [
+        {
+          "text": "Combos"
+        },
+        {
+          "text": "Consultar especialidades"
+        },
+        {
+          "text": "especialidade"
+        },
+        {
+          "text": "Pães especiais"
+        },
+        {
+          "text": "Quais as especialidades"
+        },
+        {
+          "text": "Qual a especialidade"
+        },
+        {
+          "text": "Qual a especialidade?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Glossario",
+      "examples": [
+        {
+          "text": "Não sei o que é Future's Bakery"
+        },
+        {
+          "text": "O que é a Future's Bakery"
+        },
+        {
+          "text": "O que faz a Future's Bakery"
+        },
+        {
+          "text": "Porque devo comprar na Future's Bakery"
+        },
+        {
+          "text": "Quais servicos que a Future's Bakery oferece"
+        },
+        {
+          "text": "Qual o diferencial da Future's Bakery"
+        }
+      ],
+      "description": "Descreve o significado dos conceitos"
+    },
+    {
+      "intent": "Greetings",
+      "examples": [
+        {
+          "text": "boa noite"
+        },
+        {
+          "text": "boa tarde"
+        },
+        {
+          "text": "bom dia"
+        },
+        {
+          "text": "Comprar"
+        },
+        {
+          "text": "ei"
+        },
+        {
+          "text": "kia ora"
+        },
+        {
+          "text": "oi"
+        },
+        {
+          "text": "olá"
+        },
+        {
+          "text": "Olá, meu nome é Mari. Sou assistente virtual da Future's Bakery. Espero que esteja tudo bem com você! Separei algumas opções abaixo que podem te ajudar. Caso não seja nenhuma delas, é só me avisar ;)"
+        },
+        {
+          "text": "opções"
+        }
+      ],
+      "description": "Saudações do robô."
+    },
+    {
+      "intent": "horario_func",
+      "examples": [
+        {
+          "text": "Até que horas eu posso pedir?"
+        },
+        {
+          "text": "funcionamento"
+        },
+        {
+          "text": "horario"
+        },
+        {
+          "text": "Qual a hora que eu posso pedir?"
+        },
+        {
+          "text": "Qual horario em que voces estão abertos?"
+        },
+        {
+          "text": "que horas abre"
+        },
+        {
+          "text": "Que horas voces abrem?"
+        },
+        {
+          "text": "Que horas voces estão abertos?"
+        },
+        {
+          "text": "Voces estão abertos agora?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "menu",
+      "examples": [
+        {
+          "text": "menu"
+        },
+        {
+          "text": "qual o cardapio"
+        },
+        {
+          "text": "qual o menu"
+        },
+        {
+          "text": "quero cardapio"
+        },
+        {
+          "text": "quero ver o cardapio"
+        },
+        {
+          "text": "quero ver o menu"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "mnu",
+      "examples": [
+        {
+          "text": "bolo"
+        },
+        {
+          "text": "bolo chocolate"
+        },
+        {
+          "text": "mnu"
+        },
+        {
+          "text": "qual o cardapio de bolos"
+        },
+        {
+          "text": "qual os bolos"
+        },
+        {
+          "text": "quero bolo"
+        },
+        {
+          "text": "tipos de bolos"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "obrigado",
+      "examples": [
+        {
+          "text": "grato"
+        },
+        {
+          "text": "maravilhoso"
+        },
+        {
+          "text": "muito obrigado"
+        },
+        {
+          "text": "obrigada"
+        },
+        {
+          "text": "obrigado"
+        },
+        {
+          "text": "THX"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "opcoes",
+      "examples": [
+        {
+          "text": "opcoes"
+        },
+        {
+          "text": "Opções"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "otimo",
+      "examples": [
+        {
+          "text": "Atendimento bom"
+        },
+        {
+          "text": "Atendimento ótimo"
+        },
+        {
+          "text": "Bom atendimento"
+        },
+        {
+          "text": "maravilhoso"
+        },
+        {
+          "text": "otimo"
+        },
+        {
+          "text": "Que atendimento maravilhoso!"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "pedido_pao",
+      "examples": [
+        {
+          "text": "12490-000"
+        },
+        {
+          "text": "bolo dois amores"
+        },
+        {
+          "text": "bombom recheado"
+        },
+        {
+          "text": "cachorro quente"
+        },
+        {
+          "text": "Comprar"
+        },
+        {
+          "text": "estou com fome"
+        },
+        {
+          "text": "Estou com fome posso pedir?"
+        },
+        {
+          "text": "full"
+        },
+        {
+          "text": "Iniciar pedido"
+        },
+        {
+          "text": "Me ve um pão"
+        },
+        {
+          "text": "Pao frances"
+        },
+        {
+          "text": "pix"
+        },
+        {
+          "text": "posso realizar meu pedido"
+        },
+        {
+          "text": "quero pedir pao"
+        },
+        {
+          "text": "quero pedir um pao"
+        },
+        {
+          "text": "Quero um pao"
+        },
+        {
+          "text": "sao bento do sapucai"
+        },
+        {
+          "text": "torta de morangoffe"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "pessimo",
+      "examples": [
+        {
+          "text": "atendimento ruim!"
+        },
+        {
+          "text": "Horrivel"
+        },
+        {
+          "text": "pessimo"
+        },
+        {
+          "text": "que atendimento pessimo!"
+        },
+        {
+          "text": "reclamar"
+        },
+        {
+          "text": "ruim"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "preco",
+      "examples": [
+        {
+          "text": "preco"
+        },
+        {
+          "text": "qual o preco"
+        },
+        {
+          "text": "Qual o preço?"
+        },
+        {
+          "text": "qual valor"
+        },
+        {
+          "text": "quanto deu"
+        },
+        {
+          "text": "quanto ficou"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "razoavel",
+      "examples": [
+        {
+          "text": "atendimento razoavel"
+        },
+        {
+          "text": "mais ou menos"
+        },
+        {
+          "text": "mediano"
+        },
+        {
+          "text": "razoavel"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "salgadosvenda",
+      "examples": [
+        {
+          "text": "cardapio de salgados"
+        },
+        {
+          "text": "menu de salgados"
+        },
+        {
+          "text": "menuzinho"
+        },
+        {
+          "text": "quais os salgados a venda"
+        },
+        {
+          "text": "salgados tipos"
+        },
+        {
+          "text": "tipos de salgados"
+        },
+        {
+          "text": "venda de salgados"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "servicos",
+      "examples": [
+        {
+          "text": "Como funciona a entrega?"
+        },
+        {
+          "text": "delivery"
+        },
+        {
+          "text": "Entrega"
+        },
+        {
+          "text": "Entregar"
+        },
+        {
+          "text": "Quais os tipos de entrega?"
+        },
+        {
+          "text": "retirada"
+        },
+        {
+          "text": "retirada na loja"
+        },
+        {
+          "text": "servicos"
+        },
+        {
+          "text": "serviços"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "welcome",
+      "examples": []
+    }
+  ],
+  "entities": [
+    {
+      "entity": "acompanhamento",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "agua",
+          "synonyms": [
+            "agua com gas",
+            "agua natural",
+            "agua sem gas",
+            "h20"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "bolo brigadeiro",
+          "synonyms": [
+            "bolo brigadeiro",
+            "bolo de brigadeiro",
+            "bolo de chocolate"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "bolo de morango",
+          "synonyms": [
+            "bolo de morango",
+            "bolo morango",
+            "morango bolo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "bolo de morango com chocolate",
+          "synonyms": [
+            "bolo chocolate morango",
+            "bolo de morango com chocolate",
+            "bolo morango c chocolate"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "bolo dois amores",
+          "synonyms": [
+            "bolo de dois recheios",
+            "bolo dois recheios",
+            "bolo duplo recheio",
+            "dois amores"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "bolo tres leites",
+          "synonyms": [
+            "bolo branco",
+            "bolo leite",
+            "tres leites",
+            "tres leites bolo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "bolo trufado",
+          "synonyms": [
+            "bolo trufado",
+            "trufado",
+            "trufado bolo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "bombom recheado morango",
+          "synonyms": [
+            "bombom de morango",
+            "bombom morango",
+            "bombom recheado",
+            "recheado morango"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "broinha aerosa",
+          "synonyms": [
+            "aerosa",
+            "broa",
+            "broa de fuba",
+            "broinha",
+            "broinha pequena"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cannoli",
+          "synonyms": [
+            "canoli",
+            "doce cannoli",
+            "folheado ",
+            "folheado de creme"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cento salgados",
+          "synonyms": [
+            "cem salgados",
+            "cento",
+            "salgados deliciosos",
+            "salgados diversos",
+            "salgados para festas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "coxinha",
+          "synonyms": [
+            "coxinha",
+            "coxinha grande",
+            "coxinhas",
+            "coxinha viagem",
+            "grande coxinha"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Hot dog",
+          "synonyms": [
+            "cachorro quente",
+            "cachorro-quente",
+            "lanche hot dog"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "lanche americano",
+          "synonyms": [
+            "americano",
+            "Americano especial",
+            "lanche",
+            "lanche americano"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "lanche bauru",
+          "synonyms": [
+            "bauru",
+            "lanche gostoso"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "lua de mel",
+          "synonyms": [
+            "doce",
+            "doce lua de mel",
+            "doce mel",
+            "mel"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "mantovani de creme",
+          "synonyms": [
+            "creme",
+            "especial",
+            "especialidade",
+            "mantovani"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "mini croissant",
+          "synonyms": [
+            "croissant ",
+            "croissant cheeze",
+            "croissant de queijo",
+            "mini croissant de queijo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "mini pastel",
+          "synonyms": [
+            "mini pastel",
+            "pastel mini",
+            "pequeno pastel"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "misto quente",
+          "synonyms": [
+            "lanche misto",
+            "misto",
+            "misto quente"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pao de agua",
+          "synonyms": [
+            "pao agua",
+            "pao d'agua"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pao frances",
+          "synonyms": [
+            "frances",
+            "pao",
+            "pao mais barato",
+            "pao normal"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pao hot dog",
+          "synonyms": [
+            "pao para hot dog",
+            "pao para lanche"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pao italiano c linguiça",
+          "synonyms": [
+            "pao com linguiça",
+            "pao italiano",
+            "pao italiano com linguica"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pão orelha de gato",
+          "synonyms": [
+            "gato",
+            "orelha",
+            "orelha de gato",
+            "pao orelha"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "quindim",
+          "synonyms": [
+            "delicioso",
+            "doce gostoso",
+            "doce quindim"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "refrigerante",
+          "synonyms": [
+            "coca",
+            "fanta",
+            "guarana",
+            "itubaína",
+            "refri",
+            "refrigerante"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "suco natural",
+          "synonyms": [
+            "bebida natural",
+            "natural",
+            "suco de abacaxi",
+            "suco laranja",
+            "suco morango",
+            "suco natural de",
+            "suco verde"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "suco uva integral",
+          "synonyms": [
+            "suco integral",
+            "suco integral uva",
+            "suco uva"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "torta bombom",
+          "synonyms": [
+            "bombom torta",
+            "torta de bombom"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "torta cheese",
+          "synonyms": [
+            "cheese",
+            "cheese torta",
+            "torta de queijo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "torta de limao",
+          "synonyms": [
+            "limao",
+            "limao torta",
+            "torta limao"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "torta morangoffe",
+          "synonyms": [
+            "bolo de morangoffe",
+            "morango",
+            "morango torta",
+            "torta de morangoffe",
+            "torta morango"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "cep",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "CEP",
+          "patterns": [
+            "[0-9]{5}-[0-9]{3}"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "comprar",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "quero comprar",
+          "synonyms": [
+            "comprar"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "vou comprar",
+          "synonyms": [
+            "comprar"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "endereco",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "enderecos",
+          "synonyms": [
+            "bairro",
+            "cidade",
+            "ender",
+            "endereco",
+            "meu endereco",
+            "rua"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "especialidade",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "combo amigos",
+          "synonyms": [
+            "combo amigos",
+            "combo amizade",
+            "combo com dois vinho",
+            "combo grande",
+            "combo maior"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "combo felicidade",
+          "synonyms": [
+            "combo com um vinho",
+            "combo felicidade",
+            "combo feliz"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "combo natural",
+          "synonyms": [
+            "combo com paes naturais",
+            "combo natural",
+            "natural",
+            "natural combo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pao especiarias",
+          "synonyms": [
+            "especiarias",
+            "pao de especiarias",
+            "pao especial"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "horas",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "funcionamento",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "horario de funcionamento",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "qual horas abre",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "que horas abre",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "locale",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": ":vila madalena",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Vila madalena",
+          "synonyms": [
+            "bairro madalena",
+            "Vila Madá",
+            "v.madalena"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "opcoes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "opcoes",
+          "synonyms": [
+            "especialidade",
+            "menu",
+            "opcao",
+            "opção",
+            "opções",
+            "serviços"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ótimo",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "bom",
+          "synonyms": [
+            "atendimento bom",
+            "atendimento ótimo",
+            "bom ",
+            "espetacular",
+            "maravilhoso",
+            "otimo"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "pagamento",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Cartao creditos",
+          "synonyms": [
+            "cartao de credito",
+            "credito"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cartao de debito",
+          "synonyms": [
+            "cartao debito",
+            "debito"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "dinheiro",
+          "synonyms": [
+            "dindin",
+            "dinhe",
+            "dinheiro",
+            "em dinheiro"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pix",
+          "synonyms": [
+            "pagamento em pix",
+            "pix",
+            "transferencia"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "razoavel",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "razoavel",
+          "synonyms": [
+            "mais ou menos",
+            "razoavel o atendimento"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ruim",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "pessimo",
+          "synonyms": [
+            "atendimento ruim",
+            "ruim"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Saudações",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "comprar",
+          "synonyms": [
+            "comprar",
+            "pao",
+            "pão",
+            "Queria",
+            "Queria comprar pao",
+            "Queria comprar pão"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "oi",
+          "synonyms": [
+            "Atendimento",
+            "oii",
+            "oi tudo bem",
+            "oi, tudo bem?",
+            "ola",
+            "olá"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "servico",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "entrega full",
+          "synonyms": [
+            "delivery especial",
+            "delivery full",
+            "delivery rápido",
+            "entrega na mesma hora",
+            "entrega rápida",
+            "full",
+            "full entrega"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "entrega normal",
+          "synonyms": [
+            "delivery",
+            "delivery normal",
+            "entrega normal",
+            "normal",
+            "normal entrega"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "retirada na loja",
+          "synonyms": [
+            "arrancar na padaria",
+            "comprar na padaria",
+            "retirada ",
+            "retirada na padaria",
+            "retirada no estabelecimento"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "servicos",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "entrega full",
+          "synonyms": [
+            "entrega especial",
+            "entregas rapidas",
+            "entrega super rapida"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "entrega normal",
+          "synonyms": [
+            "deixar em casa",
+            "entrega normal",
+            "entregar em casa"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "retirada na loja",
+          "synonyms": [
+            "pegar na padaria",
+            "retirada",
+            "retirada na padaria"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "tipodepao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "broa sem fundo",
+          "synonyms": [
+            "broa"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pao de centeio",
+          "synonyms": [
+            "centeio"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pao de fermentacao natural",
+          "synonyms": [
+            "natural",
+            "organico",
+            "sem adicao de quimica"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pao escuro",
+          "synonyms": [
+            "black",
+            "escuro",
+            "preto"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pao espadinha",
+          "synonyms": [
+            "espadinha"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pao fermentado",
+          "synonyms": [
+            "fermentado"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pao frances",
+          "synonyms": [
+            "frances"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pao integral",
+          "synonyms": [
+            "integral",
+            "pao light"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pao sem fermento",
+          "synonyms": [
+            "sem fermentação"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "torta",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "torta mongoffe R$150",
+          "synonyms": [
+            "mongoffe"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "frame",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgl1r-6zkJsOhYHyoTixbE-jgBC6xbupjysO7uXqjORs1465W7FcGWIwSzKVGfioz9-0J_4V6KgrqXe_--AmlKsE0QTxxHoIfRBKxWTuTTKz4Ih3v3pAQx59fL5jMiP1m5nqtReAD7Z0VzxFVt0ZZqo0P2D5uYVmluUdDut_8AelVdU9y7Uci3J11lx5g/w136-h136/1993889-icone-personagem-avatar-mulher-latina-bonita-gr%C3%A1tis-vetor-removebg-preview.png",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Olá, meu nome é Mari. Sou a assistente virtual da Future's Bakery. Espero que esteja bem com você!  Digite OI para iniciar o pedido.                                                                                \n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Se você preferir pode escolher qual categoria do MENU deseja acessar clicando em um dos botões abaixo: ",
+            "options": [
+              {
+                "label": "TORTAS",
+                "value": {
+                  "input": {
+                    "text": "menu"
+                  }
+                }
+              },
+              {
+                "label": "BOLOS",
+                "value": {
+                  "input": {
+                    "text": "mnu"
+                  }
+                }
+              },
+              {
+                "label": "DOCES",
+                "value": {
+                  "input": {
+                    "text": "atd"
+                  }
+                }
+              },
+              {
+                "label": "LANCHES",
+                "value": {
+                  "input": {
+                    "text": "cardapio"
+                  }
+                }
+              },
+              {
+                "label": "PAES ",
+                "value": {
+                  "input": {
+                    "text": "cdp"
+                  }
+                }
+              },
+              {
+                "label": "PAES ESPECIAIS",
+                "value": {
+                  "input": {
+                    "text": "cdpespeciarias"
+                  }
+                }
+              },
+              {
+                "label": "SALGADOS",
+                "value": {
+                  "input": {
+                    "text": "menuzinho"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          },
+          {
+            "title": "Para outros assuntos:",
+            "options": [
+              {
+                "label": "SERVIÇOS DE ENTREGA",
+                "value": {
+                  "input": {
+                    "text": "servicos"
+                  }
+                }
+              },
+              {
+                "label": "ESPECIALIDADES DA CASA",
+                "value": {
+                  "input": {
+                    "text": "especialidade"
+                  }
+                }
+              },
+              {
+                "label": "FAZER PEDIDO",
+                "value": {
+                  "input": {
+                    "text": "iniciar pedido"
+                  }
+                }
+              },
+              {
+                "label": "HORÁRIOS DE FUNCIONAMENTO",
+                "value": {
+                  "input": {
+                    "text": "horas"
+                  }
+                }
+              },
+              {
+                "label": "AVALIAR",
+                "value": {
+                  "input": {
+                    "text": "avaliacao"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "context": {
+        "timezone": "America/Sao_Paulo"
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "digress_in": "does_not_return",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_7_1657223007814",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Porfavor, me informe o que deseja comprar!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_6_1657210971572",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1657210971573",
+      "previous_sibling": "handler_9_1657210971573"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1657484343874",
+      "context": {
+        "pagamento": "@pagamento"
+      },
+      "conditions": "@pagamento",
+      "event_name": "input",
+      "dialog_node": "handler_1_1657484343876"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_4_1657485879442",
+      "event_name": "input",
+      "dialog_node": "handler_1_1657485879474"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual o endereço da entrega (CIDADE / BAIRRO / RUA / NUMERO) :"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_7_1657487817344",
+      "context": {
+        "sys-number": "@sys-number"
+      },
+      "event_name": "focus",
+      "dialog_node": "handler_1_1657487817347",
+      "previous_sibling": "handler_3_1657487817347"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1657419558355",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1657419558375",
+      "previous_sibling": "handler_8_1657419558375"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1657419578693",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1657419578713",
+      "previous_sibling": "handler_8_1657419578713"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_4_1657486450689",
+      "event_name": "input",
+      "dialog_node": "handler_2_1657486450692"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Não entendi sua escrita poderia escrever novamente?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_6_1657210971572",
+      "event_name": "nomatch",
+      "dialog_node": "handler_3_1657211009742",
+      "previous_sibling": "handler_10_1657210971573"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_10_1657420244801",
+      "event_name": "input",
+      "dialog_node": "handler_3_1657420244827"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1657486450689",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1657486450692",
+      "previous_sibling": "handler_2_1657486450692"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1657487817344",
+      "context": {
+        "endereco": "@endereco"
+      },
+      "conditions": "@endereco",
+      "event_name": "input",
+      "dialog_node": "handler_3_1657487817347"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Não entendi o endereço:"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_7_1657487817344",
+      "event_name": "nomatch",
+      "dialog_node": "handler_3_1657488322390",
+      "previous_sibling": "handler_1_1657487817347"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Informe o CEP de entrega: "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_5_1657211019759",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1657211019761",
+      "previous_sibling": "handler_9_1657211019761"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_2_1657418551924",
+      "event_name": "input",
+      "dialog_node": "handler_4_1657418551954"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_1_1657419563968",
+      "event_name": "input",
+      "dialog_node": "handler_4_1657419563987"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1657419571610",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1657419571632",
+      "previous_sibling": "handler_7_1657419571632"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1657420244801",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1657420244827",
+      "previous_sibling": "handler_3_1657420244827"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1657418551924",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1657418551954",
+      "previous_sibling": "handler_4_1657418551954"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_6_1657419571610",
+      "event_name": "input",
+      "dialog_node": "handler_7_1657419571632"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1657485879442",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1657485879474",
+      "previous_sibling": "handler_1_1657485879474"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Informe um CEP válido:"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_5_1657211019759",
+      "event_name": "nomatch",
+      "dialog_node": "handler_8_1657211050143",
+      "previous_sibling": "handler_4_1657211019761"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_8_1657419558355",
+      "event_name": "input",
+      "dialog_node": "handler_8_1657419558375"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1657419563968",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1657419563987",
+      "previous_sibling": "handler_4_1657419563987"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_5_1657419578693",
+      "event_name": "input",
+      "dialog_node": "handler_8_1657419578713"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1657475638563",
+      "context": {
+        "servico": "@servico"
+      },
+      "conditions": "@servico",
+      "event_name": "input",
+      "dialog_node": "handler_8_1657475638566"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Informe o tipo de pagamento (DEBITO / CREDITO / PIX / DINHEIRO ) :"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_10_1657484343874",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1657484343876",
+      "previous_sibling": "handler_1_1657484343876"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1657210971572",
+      "context": {
+        "acompanhamento": "@acompanhamento"
+      },
+      "conditions": "@acompanhamento",
+      "event_name": "input",
+      "dialog_node": "handler_9_1657210971573"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1657211019759",
+      "context": {
+        "cep": "@cep.literal"
+      },
+      "conditions": "@cep",
+      "event_name": "input",
+      "dialog_node": "handler_9_1657211019761"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Informe o tipo de serviço de entrega (FULL, NORMAL, RETIRADA NA LOJA): "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_4_1657475638563",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1657475638566",
+      "previous_sibling": "handler_8_1657475638566"
+    },
+    {
+      "type": "frame",
+      "title": "CARDAPIO_BOLO",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "FATIA DE BOLO |"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "FATIA BOLO TRUFADO | INGREDIENTES: 300 g de Chocolate meio amargo derretido; Creme de leite;  Açúcar de confeiteiro;  Manteiga ; Bolo de chocolate de 23 cm de diâmetro; Morango ",
+            "source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhK-GvXGRRq-SLFncc3wBMRJG5dcBz5GD8LVoRy6XaRBc30nme6njZB_Bh9sYz7WEO_B9GSOQKAR9teNkRpF3HjKxm6Uqw7Ig_-76YCkgSTBaDwBEvvUOryc7ow3mcy1hU949q3G67bvkkH7mjW0dtynewaceQqWlqJqt_Giyt9TW2zfZPSQU0tjUkmLA/s1600/Bolo_Trufado__637293883960927895_60x60.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "FATIA BOLO DE MORANGO | INGREDIENTES: Morangos,  manteiga ; 3 ovos;   açúcar;  farinha de trigo ; fermento em pó químico;  Manteiga;  farinha de trigo para untar;  10 morangos cortados ao meio para decorar ;  açúcar;limão",
+            "source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirv520G_KMXMSeh6nWT6Vz65vA1XMaBh6zpla1nu3BnI2G5dToFhlDXfKGu-GOhrLbPx7YZVhzZTNNIvS5DBjkgX15gI6rTLzPUvMNlYm4oDRjeOwTCrCKyhicg4vY2xHkBZxdT-SsdO8WmSvarHfzcyk45c8QraPxuWCiXorIYXVIFwXsRTqxdUTQOg/s1600/Bolo_Morango_com_Nata__637293880598795754_60x60.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "FATIA BOLO DE MORANGO C/ CHOCOLATE | INGREDIENTES: Morangos,  manteiga ; 3 ovos;   açúcar;  farinha de trigo ; fermento em pó químico;  Manteiga;  farinha de trigo para untar;  10 morangos cortados ao meio para decorar ;  açúcar;limão",
+            "source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAS7UN_u481VUk9BKHwydd4W3sWjWDBVFHRPoj_8WsdPJcFoVqsdeI-AxdVWYXk65Axx-7vkEbGZqixXrjvqobOtYeefoipHOMlQGaFD2h1oxRRFjF-CiPpN3q2Gwqn8UBiMAJqGMsZ7tXLNyMb-Ln_luodhNluj5K6ML4KA_jzFC0EDSOOKiud2KF7g/s1600/Bolo_Morango_com_Raspas_de_chocolate_637293881370516357_60x60.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_7_1657223007814",
+      "context": {
+        "sys-number": "@sys-number"
+      },
+      "conditions": "#mnu",
+      "dialog_node": "node_10_1657417917629",
+      "previous_sibling": "node_1_1657212777530"
+    },
+    {
+      "type": "frame",
+      "title": "Avaliação_Pessima",
+      "parent": "node_7_1657223007814",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@ruim",
+      "dialog_node": "node_10_1657485289016",
+      "previous_sibling": "node_2_1657221299813"
+    },
+    {
+      "type": "standard",
+      "title": "CARDAPIO_TORTA",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "TORTAS |"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "title": "FATIA DE TORTA MORANGOFFE | INGREDIENTES: 600 gramas de morango;  bolacha tipo maizena triturada; manteiga sem sal ;  doce de leite;  leite condensado ;  nata | ",
+            "source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhLkNLtf8BipAY1hmpzZ8aO631w-2becrHNEv4jLIw27Uq5WWrYdZcGdMx0rGQWJJTPMn-rxOMdxjTZRpT8wge4qiebX3bdW_hgBP72Ye4A2vKkYsJSp-msPZd2G_wSyQqXmCXkEhdpEEe1g5xCRjWS7J6n98THloXBmGym8LimaNk1WAu_2AA6t51Fg/s1600/Torta_Moranoffe_637293922052290517_60x60.jpg",
+            "description": "",
+            "response_type": "image"
+          },
+          {
+            "title": "FATIA DE TORTA DE LIMAO | INGREDIENTES: biscoito de maisena; margarina; leite condensado;creme de leite;suco de limão;raspas de 2 limões; Cobertura: 4 claras de ovo; 3 colheres (sopa) de açúcar; raspas de 2 limões | ",
+            "source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZ5zjVQzh7C6fPU9u4KFwAZhbhw1QWEcM6aCETq9h5iuaoq2lqeVWI_7pAGoQ91fQs7Fn3O2IsMCUcFHbrNSgyQFLj0HRWcpNdySLu0cgag-aXgYHi2Db32f5vbmRef_Vujr6TqL20-bxfJ9kVL8-GTeEntBv6rVZltaVvPu9yXZA_qIZda6Awts1OrQ/s1600/Torta_de_Lim%C3%A3o_637293982526487098_60x60.jpg",
+            "description": "",
+            "response_type": "image"
+          },
+          {
+            "title": "FATIA DE TORTA CHEESE | INGREDIENTES: Cream Cheese;  creme de leite;  leite condensado; biscoito maria; manteiga; limão; morango; açúcar| ",
+            "source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8N3kRTSJgS_mHcwyVvj54JJY8h6ICOQWTF-qogcuWALMLzAUGb3IyBme74fTX3Y3tETghFtgHhfipR-79uu6zVE3atbf3eyohhGjl4DWljLb9psKP--ZPNlAwQZyqB49Q92i2Gg6JnWcNl0fUM8eR-zTLKIlueNSKVcKUw-0NDAaQvhiU3YBUl4Z3ZQ/s1600/Torta_Cheese_Cake__637302516052523985_60x60.jpg",
+            "description": "",
+            "response_type": "image"
+          },
+          {
+            "title": "FATIA DE TORTA BOMBOM | INGREDIENTES: 12 bombons sortidos;  latas de leite condensado;  leite ;  amido de milho ; 6 ovos;  creme de leite;  barra de chocolate meio amargo;  chocolate granulado |",
+            "source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhOu15If-caFHYEBp0Y9lVX3716ves-Jh-djs2X0Xtz9pKk3mWr_6598NVKEemzxLO4vM1gi874d-0H48f_CjxEpJA_77vm09D6INPBfghExc8TzchHpn3qnZiXLOjrbygTNn1kWbJoB2tHfI5r8iBrcMNlwqFT-2rYPakU5OnwYDkxcTJZGhT4mRAnA/s1600/Torta_Bombom_de_Uva_637293909595716843_60x60.jpg",
+            "description": "",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_7_1657223007814",
+      "context": {
+        "sys-number": "@sys-number"
+      },
+      "conditions": "#menu",
+      "dialog_node": "node_1_1657212777530"
+    },
+    {
+      "type": "frame",
+      "title": "Troco",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Beleza, levarei troco para $troco"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "PEDIDO FINALIZADO COM SUCESSO |",
+            "source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIcLrIPcR5s68Fp-NwpD9xiPQimX152zZXObrFrYWEvSYW2raFAZEIOgZdFVEU-Gct207yWCUN_NCxlJTsV1Md9WdCZfVLN-81A-YdNNyF9SLyYv-fi1N5egOT5RlP7zMon6j2YsqWxfwk37phw8nooKf8oYynbpcM6G22kCXORR0vu6koU4a5xX4Fww/w137-h110/Online_Shoping_29.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_7_1657223007814",
+      "context": {
+        "troco": "@sys-number"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1657486553648"
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_1_1657222774750",
+      "previous_sibling": "node_9_1657210865660"
+    },
+    {
+      "type": "standard",
+      "title": "avaliação_razoavel",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Pedimos desculpas se o atendimento não foi perfeito como você desejava :("
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1657223007814",
+      "conditions": "@razoavel",
+      "dialog_node": "node_1_1657487202027",
+      "previous_sibling": "node_10_1657485289016"
+    },
+    {
+      "type": "frame",
+      "title": "Preco",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sua entrega será realizada em breve! Deu  <?(new Random().nextInt(5)*10+5)?> reais. Precisa de troco? Agora, se você optou por outro tipo de pagamento desconsidere a pergunta ;)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1657223007814",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#preco",
+      "dialog_node": "node_2_1657221299813",
+      "previous_sibling": "node_2_1657223571772"
+    },
+    {
+      "type": "frame",
+      "title": "horario",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Estamos abertos 24h por dia!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1657223007814",
+      "conditions": "#horario_func",
+      "dialog_node": "node_2_1657223571772",
+      "previous_sibling": "node_9_1657486553648"
+    },
+    {
+      "type": "frame",
+      "title": "CARDAPIO_SALGADOS",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "SALGADOS |"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "MINI PASTEL CARNE |INGREDIENTES: Óleo ; 400 gramas patinho bovino moído; cebola ;azeitonas verdes picadas; polpa de tomate ; sal ;ovos cozidos e picados;massa de pastel",
+            "source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhogREKLLOoHSsyknmFH_5XSO-ceRF0Ki_L-0OenlifeWZJvQYiAJZROC-fv_PzUGXLaj5o7uM6GL3mUf_MThBickoZ705gqox4FSnPV6jTPjxbujVTaRyyJV_Jq6pfa0CrbwbLiXA_gc27rOll_jMnsNV8RW_dRZxN4ndDyhkzMcSvwAeWz0G5-8_QBg/s1600/Pastel_Frito_de_Feira_637256620490917744_60x60.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "CENTO DE SALGADOS |CONTEÚDO: 20 mini coxinhas, 30 mini pastel, 30 bolinho de queijo , 20 mine kibe | ",
+            "source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXjLA-g768vdPRnwY8zOHzX1zNtUKDhtE-FOY3_t8NnNGNPgoJQj9Xgq8P6y4oIyrdSnopFA8zml6-muhYuIdCs_51FmC0NVFin7CKiTsnRoL5Pj_EjkIm78sfpivpx2Is28SZh3_Zb7tCAAm4k8t3Rf4EHn71-3nWa4iTrQpOcmrESjrr-bQ_aMCq-g/s1600/Mini_Fritos_tradicionais__637298187208895095_60x60.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "COXINHA |INGREDIENTES:  Água; leite ;margarina; caldo de galinha; sal ;trigo",
+            "source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5TTGWVoObXgEx5lD49vXH1G_le_RPOV2pv2cpuX1Jpy5jOzpkBIiwKF_yMTTi6d7_zZIHBm7UglSP6GTpxpAxa8qSkPIUowF6jZhFzvGa7QXP6uK7zt9TncxGpd5uQn1ej6xCoccQnpitQigUi9vQ70SHda5Gpw3pZiYfqsavF6b-GXn9qrBxP3CFPQ/s1600/Coxinha_com_Catupiry_637260829696754887_60x60.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_7_1657223007814",
+      "context": {
+        "sys-number": "@sys-number"
+      },
+      "conditions": "#salgadosvenda",
+      "dialog_node": "node_2_1657417940727",
+      "previous_sibling": "node_8_1657417945367"
+    },
+    {
+      "type": "standard",
+      "title": "avaliação_otima",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sentimos felizes por sua avaliação ;)\nFoi um prazer te atender!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1657223007814",
+      "conditions": "@ótimo",
+      "dialog_node": "node_2_1657487204728",
+      "previous_sibling": "node_1_1657487202027"
+    },
+    {
+      "type": "frame",
+      "title": "Especialidade",
+      "output": {
+        "generic": [
+          {
+            "title": "PANETONE |INGREDIENTES: fermento biológico fresco  ; água ;farinha de trigo; frutas cristalizadas; chocolate",
+            "source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgX-vgy2UeEUeXbhniOyzy2flR02JPo67cBWQC1AoXlNsTqB7RHCxi24uc8lzI0I4s2lRMr6mjb-lgWrENVoHUNCtlCOgReb9Y6YPKgkQCtx8gLf9hih_9rYvxXotkLM-yq2gGTAh_vNZBoVTxLdn8OgiUW6-YBVpohVrx4YjorTPHl_cXJ8J8TYlGakg/s1600/_Chocotone_Karoa_637316334770929901_60x60.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "TORTA SALGADA | INGREDIENTES: 3 ovos ; leite ;queijo ralado; sal; farinha de trigo;fermento em pó; frango desfiado  ",
+            "source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhY-WN7ZJXBvjwTaiNst3bPdcPw0LtAVX1h62XsJMAgYIsDNpgXjJXEOkCPNioKPIInIp1Wjna3Leji6uLmus3GJ3TobDD9i7BxEebTHsDcn6ChKJtisL2fFrgzyvMBZoZ5IFzyVOuxahMtuWRPClfRpyApaNTvy7y5fJINNXM42zdyxCn50oJ2OafBHg/s1600/Empad%C3%A3o_Frango_Catupiry_637301096518278190_60x60.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "CENTO DE SALGADOS PARA FESTAS |CONTEÚDO: 20 mini coxinhas, 30 mini pastel, 30 bolinho de queijo , 20 mine kibe",
+            "source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXjLA-g768vdPRnwY8zOHzX1zNtUKDhtE-FOY3_t8NnNGNPgoJQj9Xgq8P6y4oIyrdSnopFA8zml6-muhYuIdCs_51FmC0NVFin7CKiTsnRoL5Pj_EjkIm78sfpivpx2Is28SZh3_Zb7tCAAm4k8t3Rf4EHn71-3nWa4iTrQpOcmrESjrr-bQ_aMCq-g/s1600/Mini_Fritos_tradicionais__637298187208895095_60x60.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "SUCO DETOX | INGREDIENTES: 1 folha de couve ; limão  ;pepino japonês ; maçã vermelha picada  ; água de coco ;",
+            "source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiI97A3I--XBlONfVClgbPHoOIVumBMSqqBILlVvQ5pb7ecqhdFSCO6uaIE259b0X1krV4VIPgiLjWpSelMYQAVPT7hPhhAhZ_A600Up5OpZ1Umk3n1p-RPrOp-_23Kuy4NwjQxZsmL__L80g4_2JL3BmbOOj4XRD7MWSJarRVvo4lfhqInZufBPR9E-g/s1600/Suco_Detox_natural_500ml_637515765856938398_60x60.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_7_1657223007814",
+      "conditions": "#especialidade",
+      "dialog_node": "node_3_1657214578544",
+      "previous_sibling": "node_5_1657215518619"
+    },
+    {
+      "type": "standard",
+      "title": "Redirecionamentos_classes",
+      "output": {
+        "generic": [
+          {
+            "title": "OPÇOES",
+            "options": [
+              {
+                "label": "Menu",
+                "value": {
+                  "input": {
+                    "text": "Cardápio"
+                  }
+                }
+              },
+              {
+                "label": "Especialidades",
+                "value": {
+                  "input": {
+                    "text": "Pães com especiarias"
+                  }
+                }
+              },
+              {
+                "label": "Serviços",
+                "value": {
+                  "input": {
+                    "text": "Tipos de entrega"
+                  }
+                }
+              },
+              {
+                "label": "Diferencial",
+                "value": {
+                  "input": {
+                    "text": "Diferencial de mercado"
+                  }
+                }
+              }
+            ],
+            "description": "Você gostaria de perguntar: ",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "Bem-vindo",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_1_1657212777530"
+      },
+      "conditions": "",
+      "dialog_node": "node_4_1657132873941",
+      "previous_sibling": "response_1_1657153757218"
+    },
+    {
+      "type": "standard",
+      "title": "Saudacao",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Greetings",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1657208788151",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "frame",
+      "title": "Servicos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "REALIZAMOS 3 TIPOS DE SERVIÇOS DE ENTREGA |"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "title": " RETIRADA NA LOJA:  O usuário comprando na loja pode retirar sua mercadoria no mesmo instante da finalização da compra.",
+            "source": "https://ultragazempresas.com.br/wp-content/uploads/2020/09/IMG-Destaque-como-montar-padaria-tecnologica-400x166.png",
+            "response_type": "image"
+          },
+          {
+            "title": "ENTREGA NORMAL :  O usuário opta pela compra com opção de entrega a domícilio mediante entrega normal .",
+            "source": "https://blog.dipratos.com.br/wp-content/uploads/2021/08/como-montar-um-delivery-restaurante.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "ENTREGA FULL |ENTREGA NO MÁXIMO 15 MINUTOS : O usuário opta pela compra com opção de Entrega a domícilio Full, nesta modalidade o pão é finalizado e deve ser entregue até 2 horas após a compra",
+            "source": "https://img.olhardigital.com.br/wp-content/uploads/2022/06/Delivery.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_7_1657223007814",
+      "context": {
+        "servico": "@servicos"
+      },
+      "conditions": "#servicos",
+      "dialog_node": "node_5_1657215518619",
+      "previous_sibling": "node_2_1657417940727"
+    },
+    {
+      "type": "folder",
+      "title": "Padaria",
+      "dialog_node": "node_7_1657223007814",
+      "previous_sibling": "node_4_1657208788151"
+    },
+    {
+      "type": "standard",
+      "title": "CARDAPIO_ESPECIARIAS",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PÃES ESPECIAIS | "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "PÃO ITALIANO COM LINGUIÇA |INGREDIENTES:   Azeite de oliva para refogar;  cebola picada; linguiça calabresa ; cachaça; molho de tomate; Sal ; 1 pão italiano grande; queijo muçarela; Orégano",
+            "source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSFCSvvprpXJUBmlWR2h69sstbpG2UsOY9jvuL0aRk0T-PJqjD4HEcsCy2GyvfBf8AbBlQe_pjnOtbmm3cGaDTCyli_-BSJ5-EnnE-PY69HcSOIcG2j2Ka7BFkLY-tbOykEmP75z7J3ior03HOTa9IntUjagTh05GpIb2HgKcU-oND5PTvX2lOMzvZGg/s1600/P%C3%A3o_Italiano_com_Lingui%C3%A7a__637336218183770608_60x60.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "ORELHA DE GATO |INGREDIENTES: farinha de trigo; açúcar; fermento em pó ; ovos; sal;  leite ; óleo para fritar",
+            "source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHNfrEY5DlTH8IVcOybv1Jc_NaTjMJbzpvi7A9dRsQ_B8kTqoyjpmeu-RPCu76YfyQZvWOZj-RrOQsG5FYuRKMFw8Qh9iJPOMN81ufV_g0hEK2jVtll5FdF70CsGpxvH4wcuZhxG9okxo3NLBKg9luRCwpIqmSOH00KHUOpNbecYUNaH90-gFVtPu2wA/s1600/Orelha_de_Gato_637302577434313624_60x60.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "MANTOVANI DE CREME |INGREDIENTES: Massa folhada; leite ; maisena; leite condensado;creme de leite ;3 gemas; essência de baunilha ;Açúcar de confeiteiro ;Açúcar; baunilha;",
+            "source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHx1y2BViTTG1CDnf21KRGs-hhJ3F_PL6aRXwGbgn-jqpSTMRtu6NEzPiOyt6MfxN0eFEzC7ZdQi8f33BT2eiq4sIO5eB_lBAWTilFrRVDn-7F_ybwWMy3XgFi7msIBBBm08Xfep5NcbazCIdpllY1e2DaqpmJfFXTgYatJUFi9gy5P7pSIoBd9t8y9w/s1600/Mantovani_de_Creme_637317194218455430_60x60.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "BROINHA AEROSA |INGREDIENTES:  Leite; manteiga; erva-doce; farinha de trigo ; fubá ;açúcar; sal;Ovos;fermento químico em pó",
+            "source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcovOefEPFmDc1UKhioI0soccIzcXx6VrR7os4pHkwZdA4NUgpUjez62mOXfWgsnZO9ELZaY2l_UKlG3yQFXRt78EhgQrzb58jLq-qEyddHXFRbSdnmii2_UimX2VYqD9I170B9dDzTnQn6K0mdYI-S9VM_vD_yMr8dSM7bbIkR9kxWav6wL1plU8LAA/s1600/Broinha_Aerosa_637301094762385851_60x60.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_7_1657223007814",
+      "conditions": "#cdpespeciarias",
+      "dialog_node": "node_8_1657417945367",
+      "previous_sibling": "node_9_1657417948103"
+    },
+    {
+      "type": "frame",
+      "title": "CARDAPIO_DOCES",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "DOCES | "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "BOMBOM RECHEADO MORANGO |INGREDIENTES: leite condensado;manteiga; chocolate branco; Morango; Temperagem do chocolate;chocolate ao leite |",
+            "source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitiWxA7Lxguimu1YHtw_8POdKXZXToFc_gnkhiDiKB_i3He6p30h436il7XdmPk1bPJCs0pxLnU_gh6PsUgdtBIpmMI_MoeZc8BfDNHXRbO96xXNa8zHThwLfdXVFpTo_N1UiIsE7mMW-rk6PK10o7J_BzvwmuHXcMiu1xuL_-uFR5niIB0cIatZr0Zg/s1600/Bombom_recheado_637299158394661465_60x60.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "CANNOLI |INGREDIENTES:  1 massa folhada; leite;2 gemas; 1 fava baunilha; açúcar; maizena (amido de milho); gemas; açúcar confeiteiro",
+            "source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDy4B9yIOM1_d9hZCpeSFnR6IvjxAqWie6IeRCXkuQ8xfZUEEx6OvdCVjUxGhBWipap3wwPR7uehEEFopPN-Jj5IVFKdpl5Per4ZB11LdQfk_OPp6_FR9-sgAh1c5eKwWHEYDEIb6lkmojrsTTUj4doWwJ9eRyknLRNLj0-TfrHB-nor21TSQskFN9fw/s1600/Cannoli_folhado_recheado_637301090882587698_60x60%20(1).jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "QUINDIM |INGREDIENTES: gemas; açúcar; leite de coco; coco ralado; Manteiga e açúcar",
+            "source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjT_Jlg6xdMLAYLU6RwHFs7Dr26Y_Ok3QZcHo2VFP9BGuMB_B9PYVevkevdDwOHO2BkZlkPUXLZRJguSfQ915FAgEv4fLPx2tiQM6WAfvPzcd7haFABYKUhyY5MWiKUCG419ggOoBxvSXvar-T9XjCCx1dfRXcB2dwvTnLR8NRvW3bVHcxCvX-Rm9VXQ/s1600/Quindim__637301093560393484_60x60.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "LUA DE MEL |INGREDIENTES: farinha de trigo;fermento biológico; açúcar; ovos; sal; leite; manteiga",
+            "source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlkM3-8Hoym90sX3kK5Xa9YlXtaHS_aDtaSoZmhEqZV_TuPic4uKR5EqN-IijcFaPWfT-FqGgf7inmnSNiVn8b2k_SrwEp9nIHzyE9OGG90_HswcvPOcc5mSboThIxVpOVq3BQGewbutmC3zOjcU4JjusPBynRiCtWOMSJiCCLxA1p03mIddmbPlzTwQ/s1600/Lua_de_Mel_recheada_637302582277550015_60x60.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_7_1657223007814",
+      "conditions": "#atd",
+      "dialog_node": "node_8_1657417952215",
+      "previous_sibling": "node_10_1657417917629"
+    },
+    {
+      "type": "frame",
+      "title": "Pedido pao",
+      "parent": "node_7_1657223007814",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1657221299813"
+      },
+      "conditions": "#pedido_pao",
+      "dialog_node": "node_9_1657210865660",
+      "previous_sibling": "node_3_1657214578544"
+    },
+    {
+      "type": "frame",
+      "title": "CARDAPIOPAESNORMAIS",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PÃES NORMAIS |"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "PÃO FRÂNCES |INGREDIENTES:  farinha de trigo; fermento para pão ; sal ; açúcar;margarina",
+            "source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJ4CiVPxZOy1yRVSVVLKLb1WI6POPLiLfvsmRRm2ClWIsD1lxdCPjjUFudktx8sK_FQXBPcVjKQvQBYRLzE70Th0EiPQteytB2NV88Tddr4zlf7eNw4LDIf6rdKs6cXosEanj61lvOEYIzoFhfQo38n1aVFrqX2oVlb4HXjsk4joAKnXr73jUH01Oykw/s1600/P%C3%A3o_Franc%C3%AAs_(01_unid)_637257642876936598_60x60.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "PÃO D'ÁGUA |INGREDIENTES: farinha de trigo ; ovos; agua morna ; fermento  ; óleo ; açúcar;sal; 1 gema",
+            "source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjX8cRkkCnO3GfaWj12c2azNt3UJgdM0f3uC4IWeOZiBGrLGs53ozYvHGt35VwDZp4vGJ9fevLh9KoILZ3zfqdj_Wy-BMPT0Ye3FsRD27jbmdTMWMIf5IL2hWzuSa_mYexJv15BWz89ffGjTPYI4wGxoIOz71H4gWk3l6xPSYxmAh3y3596hWqEggoJDw/s1600/P%C3%A3o_D%E2%80%99%C3%81gua_(01_unid)_637301111444074882_60x60.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "PÃO HOT DOG |INGREDIENTES:Fermento; leite morno; açúcar ;farinha de trigo ;3 ovos ; sal  ; óleo",
+            "source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhf73NIySHxuV2p19VfvH-MCTDfGrftMwiJjVRXS8FaL-pHiZZeTEcrEVsk4SLu-AYkfSBryn_4vlFKms25hNGRvOXlfip7oXwC6ABHH3hpMjNLWDqB1ca6Gcv7YQCIfZwASnLHVxcJldF7JYxQwZL1F0glm1-6yKA9DuthH0VGzIQSlf6WXOa_VkqWzA/s1600/P%C3%A3o_Hot_Dog_(01_unid)_637301111953107039_60x60.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "MINI CROISSANT QUEIJO |INGREDIENTES: 1 massa folhada; 75gr creamcheese ; presunto ;ovo",
+            "source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzzh9X9_Vz7_7WYu9UoV9GealNOIbpvmoZLrOFjvsE2_Pq0U2DmOFmoCA29AGhz-yxhOmURonTELrLTMVBSnnVfdgyrZSblxte1J352XKK71-t1MyOANlt9RpJHnFZSJ7Y568Ctcja3Rao_CEKrjwTX-i1CIZaJRNFJuOVXtwvVghMZVHbrCgAoIO-7Q/s1600/Mini_Croissant_folhado_637301078230733227_60x60.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_7_1657223007814",
+      "conditions": "#cdp",
+      "dialog_node": "node_9_1657417948103",
+      "previous_sibling": "node_9_1657417950359"
+    },
+    {
+      "type": "frame",
+      "title": "CARDAPIO_LANCHES",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "LANCHES | "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "AMERICANO ESPECIAL |INGREDIENTES: Pão Francês; Ovos; Presunto; Queijo tipo mussarela; Alface;Tomate;Maioneze;Catchup; Mostarda; Manteiga ",
+            "source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvueGFGvSPVEvBTgL5hqRPvJCSjEoCR-WEWXjwxwPVwX0UVyQmvowuJbi8cLIbI7H6AHotpf5tOLM9t-rt2bRi-_kTmkKtpt_uBxm5y1ZzWpm5JGhFpIV6XHbSUDG7TAAc5k7RQevoHh2wBNvG6bchi7OV-F-8hwvmT-hufmvrhSnsyalrRW-_xCu_nQ/s1600/Americano_Especial_Karo%C3%A1_637268828130441867_60x60.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "BAURU |INGREDIENTES: pão francês; 3 fatias de queijo mussarela; 3 fatias de presunto, apresuntado ou rosbife; 3 rodelas finas de tomate; Azeite; Orégano",
+            "source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMh5rhYuMtdG6MuScJnSQvXfq7doTJXZ1Hl6uOwiqfzKN0UZ_HbcJ79h1W-lv9PeUzqMkl6wAyhOScBNUm1PbKumQrhVnniF34CAilbtecatMu-5CJ7uiBEbmxXIMdDLC9upEK3ILZNVSyAi8NJ3tnSn5P8lKR4_wbiZGKu8gbarAau7LTg-sDOVczQw/s1600/Bauru_637257674077511237_60x60.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "HOT DOG |INGREDIENTES: Salsicha Perdigão; 6 unidades Milho; Ervilha; Tomates; Cebola; purê; Margarina Claybom;Batata palha; Catchup;Mostarda;Maionese;Pão para Hot Dog",
+            "source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvkxgbwU1Uvndb4uhMCcU_sow9YT1JCtGnq7Jx167Zjq8i29-2eTkJqvdbUBg0VcCnz-fZYdI-E-IjN_hMa4oNE7L_2FkI53ERg5PFIVY8ikeJDGS0xKTgCjdvWkdGNI4ctMRieQhwFjI7FsIibv_fs-nAnoOQ-Jc2mDvcgG_l3x1TnqK1XJvse2OuwQ/s1600/Hot_Dog_Karo%C3%A1_637257681522341212_60x60.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "MISTO QUENTE |INGREDIENTES: 2 fatias de presunto magro ; 2 fatias de pão de forma ;  queijo; margarina",
+            "source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRXIQt6wey8VP-AhIz3_PCSGiaBKh8DDb5ZRGb3dIodQW1BdAcOqSzxfzDtKbpAfYfRUFTZCVto-RSAYdp2mkW_gcOtQ9HJmfkpftUsKiaANjdBELTPd0hIFq6qojCHXY17GoJbYymUJm32YWENmmmCqVXC238jMC8gE4tJ_mYxVV3yAtKoyZeyEgHXw/s1600/Misto_Quente_637268855200071465_60x60.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_7_1657223007814",
+      "conditions": "#cardapio",
+      "dialog_node": "node_9_1657417950359",
+      "previous_sibling": "node_8_1657417952215"
+    },
+    {
+      "type": "standard",
+      "title": "avaliação",
+      "output": {
+        "generic": [
+          {
+            "title": "AVALIAÇÃO DO ATENDIMENTO",
+            "options": [
+              {
+                "label": "RUIM",
+                "value": {
+                  "input": {
+                    "text": "pessimo"
+                  }
+                }
+              },
+              {
+                "label": "RAZOAVEL",
+                "value": {
+                  "input": {
+                    "text": "razoavel"
+                  }
+                }
+              },
+              {
+                "label": "BOM",
+                "value": {
+                  "input": {
+                    "text": "otimo"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1657223007814",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1657485289016"
+      },
+      "conditions": "#avaliacao",
+      "dialog_node": "node_9_1657486553648",
+      "previous_sibling": "node_1_1657222774750"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá, meu nome é Mari. Sou a assistente virtual da Future's Bakery. Espero que esteja bem com você! Estou aqui para auxilia-lo(a) ;)                                                                                                 \n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "Bem-vindo",
+      "disabled": true,
+      "conditions": "",
+      "dialog_node": "response_1_1657153757218",
+      "previous_sibling": "slot_10_1657420244801"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Pedimos desculpas pelo atendimento ruim   :( \nPrometo que vamos aprimorar nossa comunicação e serviços!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1657485289016",
+      "context": {},
+      "dialog_node": "response_4_1657486441514",
+      "previous_sibling": "slot_4_1657486450689"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Perfeito, aqui está seu pedido: O $acompanhamento para o endereço: $endereco , CEP: $cep, com o serviço $servico, com o pagamento $pagamento"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1657210865660",
+      "context": {},
+      "dialog_node": "response_4_1657488967902"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b> Boa tarde ;) </b> Para fazer pedidos escreva: INICIAR PEDIDO "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1657208788151",
+      "conditions": "now().after('12:00:00') && now().before('18:00:00')",
+      "dialog_node": "response_6_1657252756228",
+      "previous_sibling": "response_8_1657252536229"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b> Boa noite ;) </b> Para fazer pedidos escreva: INICIAR PEDIDO "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1657208788151",
+      "conditions": "anything_else",
+      "dialog_node": "response_6_1657252876793",
+      "previous_sibling": "response_6_1657252756228"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sua entrega será realizada em breve! Deu  <?(new Random().nextInt(5)*10+5)?> reais você precisa de troco para quanto?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1657221299813",
+      "disabled": true,
+      "conditions": "@comprar",
+      "dialog_node": "response_7_1657414641764"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b> Bom dia ;)  </b>Para fazer pedidos escreva: INICIAR PEDIDO  "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1657208788151",
+      "context": {
+        "timezone": "America/Sao_Paulo"
+      },
+      "conditions": "now().after('06:00:00') && now().before('12:00:00')",
+      "dialog_node": "response_8_1657252536229"
+    },
+    {
+      "type": "slot",
+      "parent": "Bem-vindo",
+      "dialog_node": "slot_10_1657420244801"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1657210865660",
+      "variable": "$pagamento",
+      "dialog_node": "slot_10_1657484343874",
+      "previous_sibling": "slot_4_1657475638563"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1657417945367",
+      "dialog_node": "slot_1_1657419563968"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1657417952215",
+      "dialog_node": "slot_2_1657418551924"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1657210865660",
+      "variable": "$servico",
+      "dialog_node": "slot_4_1657475638563",
+      "previous_sibling": "slot_5_1657211019759"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1657222774750",
+      "dialog_node": "slot_4_1657485879442"
+    },
+    {
+      "type": "slot",
+      "parent": "node_10_1657485289016",
+      "dialog_node": "slot_4_1657486450689"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1657210865660",
+      "variable": "$cep",
+      "dialog_node": "slot_5_1657211019759",
+      "previous_sibling": "slot_7_1657487817344"
+    },
+    {
+      "type": "slot",
+      "parent": "node_3_1657214578544",
+      "dialog_node": "slot_5_1657419578693"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1657210865660",
+      "variable": "$acompanhamento",
+      "dialog_node": "slot_6_1657210971572",
+      "previous_sibling": "response_4_1657488967902"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1657215518619",
+      "dialog_node": "slot_6_1657419571610"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1657210865660",
+      "variable": "$endereco",
+      "dialog_node": "slot_7_1657487817344",
+      "previous_sibling": "slot_6_1657210971572"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1657417948103",
+      "dialog_node": "slot_8_1657419558355"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "Chat Bot Future's Bakery",
+  "language": "pt-br",
+  "description": "Assistente virtual e-commerce para padaria moderna Future's Bakery"
+}
